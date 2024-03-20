@@ -1,0 +1,126 @@
+* {
+    background: url("./imagenes/primos03.webp");
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: left;
+}
+
+
+.logo {
+    height: 90px;
+    margin-left: 10px;
+    padding-top: 10px;
+    width: 90px;
+}
+
+.encabezado {
+    display: flex;
+
+}
+
+.text-encabezado {
+    color: #1b263b;
+    font-size: 70px;
+    margin-top: 45px;
+}
+
+.principal {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.textarea {
+    background: #0d1b2a;
+    border-radius: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    text-transform: lowercase;
+}
+
+::placeholder {
+    color: white;
+    padding-top: 10px;
+}
+
+.textarea:focus {
+    outline: none;
+}
+
+.informacion {
+    font-size: medium;
+    margin-top: 1px;
+}
+
+
+.logo2 {
+    width: 15px;
+}
+
+.mensaje {
+    background: white;
+    background-repeat: no-repeat;
+  border: solid 2px;
+  border-color: #0d1b2a;
+    border-radius: 24px;
+    color: #0d1b2a;
+    margin-left: 90px;
+    margin-top: 10px;
+    padding-left: 20px;
+
+}
+
+.botones {
+    display: flex;
+    margin-top: 7px;
+}
+
+.btn-encriptar {
+    background: #1b263b;
+    border: 1px solid #1b263b;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    margin-right: 5px;
+    text-align: center;
+    width: 320px;
+}
+
+.btn-desencriptar {
+    background: #778da9;
+    border: 1px solid #1b263b;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 5px;
+    text-align: center;
+    width: 320px;
+}
+
+.copiar {
+    background: #e0e1dd;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 110px;
+    margin-top: 85px;
+    text-align: center;
+    width: 328px;
+}
+.footer{
+    background: #0d1b2a;
+    color:#ede9e9 ;
+    display: flex;
+    font-size: 20px;
+    height: 50px;
+    justify-content:center;
+    margin-top: -2px;
+}
