@@ -1,126 +1,113 @@
-* {
-    background: url("./imagenes/primos03.webp");
+/* Estilos base */
+body {
+    background:#eae2b7;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
 
+/* Encabezado */
+.encabezado {
+     background-color: #370617;
+    color: white;
+    display: flex;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 32px;
-    font-weight: 400;
-    line-height: 48px;
+    padding: 20px;
     text-align: left;
 }
 
-
 .logo {
-    height: 90px;
-    margin-left: 10px;
-    padding-top: 10px;
-    width: 90px;
-}
-
-.encabezado {
-    display: flex;
-
+    height: auto;
+    width: 150px;
 }
 
 .text-encabezado {
-    color: #1b263b;
-    font-size: 70px;
-    margin-top: 45px;
+    color:#fdfdfd;
+  font-size: 60px;
+    font-weight: 300;
+    margin-left: 10px;
+    margin-top: 50px;
 }
 
+/* Principal */
 .principal {
     display: flex;
-    margin-bottom: 50px;
-    margin-left: 80px;
+    flex-wrap: wrap;
+    /* Para que los elementos se envuelvan en múltiples líneas */
+    justify-content: space-around;
+    padding: 20px;
 }
 
 .textarea {
-    background: #0d1b2a;
-    border-radius: 20px;
+    background: #03071e;
+    border: solid 4px;
+    border-color: #f48c06;
+    border-radius: 25px;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 10px;
-    text-transform: lowercase;
-}
-
-::placeholder {
-    color: white;
-    padding-top: 10px;
-}
-
-.textarea:focus {
-    outline: none;
-}
-
-.informacion {
-    font-size: medium;
-    margin-top: 1px;
-}
-
-
-.logo2 {
-    width: 15px;
+    margin: 10px;
+    max-width: 400px;
+    /* Establecer un ancho máximo */
+    padding: 10px;
+    width: calc(100%);
 }
 
 .mensaje {
-    background: white;
-    background-repeat: no-repeat;
-  border: solid 2px;
-  border-color: #0d1b2a;
-    border-radius: 24px;
-    color: #0d1b2a;
-    margin-left: 90px;
-    margin-top: 10px;
-    padding-left: 20px;
+    border: solid 4px;
+    border-color: #03071e;
+    border-radius: 25px;
+    color: black;
+    margin-bottom: 10px;
+    max-width: 400px;/* Establecer un ancho máximo */
+    padding: 10px;
+    width: calc(100%);
+}
 
+.informacion {
+    text-align: center;
 }
 
 .botones {
     display: flex;
-    margin-top: 7px;
+    justify-content: center;
 }
 
-.btn-encriptar {
-    background: #1b263b;
-    border: 1px solid #1b263b;
-    border-radius: 24px;
-    color: white;
-    cursor: pointer;
-    height: 67px;
-    margin-right: 5px;
-    text-align: center;
-    width: 320px;
-}
-
+.btn-encriptar,
 .btn-desencriptar {
-    background: #778da9;
-    border: 1px solid #1b263b;
-    border-radius: 24px;
-    color: white;
-    cursor: pointer;
-    height: 67px;
-    margin-left: 5px;
+    background-color: #f48c06;
+    border-bottom-width: 5px;
+    border-radius: 30px;
+    color: rgb(229, 237, 240);
+    font-size: 19px;
+    font-weight: bold;
+    height: 40px;
+    margin-inline: 5px;
+    margin-left: 10px;
+    padding: 10px;
     text-align: center;
-    width: 320px;
+    width: 200px;
 }
+
 
 .copiar {
-    background: #e0e1dd;
-    border: 1px solid #0A3871;
-    border-radius: 24px;
-    color: #0A3871;
-    cursor: pointer;
-    height: 67px;
-    margin-left: 110px;
-    margin-top: 85px;
+    align-items: center;
+    background-color: #f48c06;
+    border-bottom-width: 5px;
+    border-radius: 30px;
+    color: rgb(229, 237, 240);
+    font-size: 19px;
+    font-weight: bold;
+    height: 40px;
+    margin-left: 100px;
+    margin-top: 77px;
     text-align: center;
-    width: 328px;
+    width: 200px;
 }
-.footer{
-    background: #0d1b2a;
-    color:#ede9e9 ;
-    display: flex;
-    font-size: 20px;
-    height: 50px;
-    justify-content:center;
-    margin-top: -2px;
+
+/* Footer */
+footer {
+    background-color: #370617;
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+    text-align: center;
 }
