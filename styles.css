@@ -9,6 +9,7 @@ body {
 /* Encabezado */
 .encabezado {
      background-color: #370617;
+     background-size: 100%;
     color: white;
     display: flex;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -106,6 +107,7 @@ body {
 /* Footer */
 footer {
     background-color: #370617;
+    background-size: 100%;
     color: white;
     font-size: 25px;
     padding: 10px;
